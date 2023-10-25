@@ -31,6 +31,7 @@ class BrowsePeerProxy implements DesktopPeer {
     private final Function<URI, Boolean> browseFunction;
     private final Callable<Boolean> isBrowseSupportedCallable;
 
+    
     BrowsePeerProxy(
         DesktopPeer peer,
         Callable<Boolean> isBrowseSupportedInteraction,
